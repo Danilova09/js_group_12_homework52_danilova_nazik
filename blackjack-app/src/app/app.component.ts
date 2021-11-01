@@ -7,11 +7,4 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
   title = 'black-jack';
-  @Input() rank = 'k';
-  @Input() suit = '♦';
-
-  // getClassName() {
-  //   return {'card': true, 'rank-k': true, 'diams': true};
-  // }
-
 }
